@@ -11,7 +11,7 @@ public class PasswordEvaluationTestingAutomation {
 		System.out.println("____________________________________________________________________________");
 		System.out.println("\nTesting Automation");
 		
-		performTestCase(1, "Aa!15678", true);
+		performTestCase(1, "Aa!156789", true);
 		performTestCase(2, "A!", false);
 		performTestCase(3, "zz!!5678", false); 		//no uppercase
 		performTestCase(4, "Zs!423", false); 		//7 characters
